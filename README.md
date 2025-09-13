@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Party Menu Selection App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and responsive web application built with ReactJS that allows users to browse a categorized menu of dishes, filter them based on various criteria, and select items for a party.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Categorized Menu:** Browse dishes organized into tabs: Starters, Main Course, Sides, and Desserts.
+- **Dynamic Filtering:**
+  - **Category Tabs:** Instantly filter the menu by clicking on a category. The active tab is highlighted.
+  - **Search Bar:** Search for any dish by name in real-time.
+  - **Veg-Only Toggle:** A simple checkbox to instantly hide all non-vegetarian options.
+- **Interactive Dish Cards:**
+  - **Add/Remove Functionality:** Easily add dishes to your selection or remove them. The button state updates accordingly.
+  - **Visual Feedback:** Selected dishes are clearly marked with a badge for a better user experience.
+- **Ingredient Details Modal:** Click the "Ingredients" button on any dish to view a pop-up modal with a detailed list of its ingredients without leaving the page.
+- **Selected Items Summary:** A summary section appears at the bottom of the page, listing all the dishes you've added to your party menu. You can also remove items directly from this list.
+- **Responsive Design:** The layout is fully responsive and works smoothly on desktop, tablet, and mobile screens.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** ReactJS
+- **Styling:** Plain CSS with Flexbox and Grid
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running, follow these simple steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+You need to have Node.js and npm installed on your machine. You can download them from [nodejs.org](https://nodejs.org/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation & Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clone the repository:**
+    ```
+    git clone <YOUR_REPOSITORY_URL>
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  **Navigate to the project directory:**
+    ```
+    cd party-menu-app
+    ```
 
-### `npm run eject`
+3.  **Install NPM packages:**
+    ```
+    npm install
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4.  **Run the application:**
+    ```
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application will open in your default browser at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
